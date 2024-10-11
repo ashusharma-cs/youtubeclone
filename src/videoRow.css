@@ -1,0 +1,28 @@
+.videoRow{
+    display: flex;
+    margin-bottom: 30px;
+    max-width: 700px;
+}
+
+.videoRow__thumbnail{
+    height: 220px;
+    width: 320px;
+    border-radius: 12px;
+    object-fit: contain;
+}
+
+.videoRow__text{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+
+    padding: 12px;
+}
+
+.videoRow__text p{
+    margin: 5px;
+}
+.videoRow__text h3{
+    margin: 5px;
+}
